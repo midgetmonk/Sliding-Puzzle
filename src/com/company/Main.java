@@ -67,6 +67,9 @@ public class Main {
             boardLocation = tempKey;
         }
 
+        System.out.println("You win!");
+        PrintBoard(boardValues, boardSize);
+
 
     }
 
